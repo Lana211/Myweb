@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fitlicious</title>
+    <link rel="stylesheet" href="lana.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="login-page-header">
+        <div class="login-page-header-content">
+            <div class="login-page-logo">
+                <img src="logo.png" alt="Fitlicious Logo">
+            </div>
+            <h1 class="login-page-brand">Fitlicious</h1>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="login-page-main">
+        <div class="login-page-container">
+            <!-- Left Side - Hero Content -->
+            <div class="login-hero-content">
+                <h2 class="login-hero-heading">Eat healthy with us</h2>
+                <p class="login-hero-subheading">Discover nutritious recipes that fit your lifestyle</p>
+                <p class="login-hero-supporting">Simple • Balanced • Delicious</p>
+            </div>
+
+            <!-- Right Side - Login Form Card -->
+            <div class="login-form-wrapper">
+                <div class="login-form-card">
+                    <h3 class="login-card-title">Welcome Back</h3>
+                    <p class="login-card-subtitle">Sign in to your account</p>
+
+                    <form class="login-page-form" method="post">
+                        <div class="login-field">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="login-field">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        </div>
+
+                        <div class="login-button-group">
+                            <button type="submit" class="login-user-button" formaction="user-page.html">
+                                Login as User
+                            </button>
+                            <button type="submit" class="login-admin-button" formaction="admin-page.html">
+                                Login as Admin
+                            </button>
+                        </div>
+                    </form>
+
+                    <p class="login-signup-link">
+                        Don't have an account? <a href="index.html">Sign up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="login-page-footer">
+        <p>&copy; 2026 Fitlicious. All rights reserved.</p>
+    </footer>
+</body>
+</html>
